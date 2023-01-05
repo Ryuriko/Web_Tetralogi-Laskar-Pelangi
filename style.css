@@ -1,0 +1,168 @@
+@keyframes animasi_say1 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes animasi_say2 {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes animasi_say3 {
+  0% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 0%;
+  }
+  70% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes animasi_say4 {
+  0% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 0%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  95% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* index */
+#home {
+  position: relative;
+  height: 670px;
+  background-image: url(media/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tbl-index {
+  font-family: cursive;
+  width: 9%;
+  height: 8%;
+  position: absolute;
+  top: 48%;
+  left: 46%;
+  font-size: 150%;
+}
+.tbl-index a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 80%;
+}
+.say {
+  color: black;
+  font-family: cursive;
+  font-size: 200%;
+  font-weight: bold;
+}
+.say1 {
+  position: absolute;
+  top: 200px;
+  left: 33%;
+  animation: animasi_say1 3s infinite;
+}
+.say2 {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  animation: animasi_say2 3s infinite;
+}
+.say3 {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  animation: animasi_say3 3s infinite;
+}
+.say4 {
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  animation: animasi_say4 3s infinite;
+  -webkit-animation: animasi_say4 3s infinite;
+}
+
+/* beranda */
+#beranda {
+  /* position: relative; */
+  height: 700px;
+  background-image: url(media/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#play {
+  width: 4%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 4%;
+  left: 3%;
+}
+/* About */
+#about {
+  height: 600px;
+  background-image: url(media/bg4.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#play-b {
+  width: 4%;
+  cursor: pointer;
+  position: absolute;
+  bottom: -10%;
+  left: 3%;
+}
+.about-img {
+  margin-left: 15%;
+  width: 40%;
+}
+
+/* Music */
+#music {
+  height: 650px;
+  background-image: url(media/bg5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.music-thumb {
+  cursor: pointer;
+}
